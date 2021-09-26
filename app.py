@@ -10,6 +10,11 @@ def welcome():
     return "Welcome to python WebService"
 
 
+@app.route("/gbenga/")
+def hello():
+    return "Hello Gbenga"
+
+
 if __name__ != "__main__":
     pass
 else:
